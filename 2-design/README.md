@@ -5,7 +5,7 @@
 ### 1. Load Balancer (Top Layer):
 The load balancer is the entry point for incoming requests. It distributes traffic evenly among the API Gateways to ensure high availability and efficient use of resources.
 
-It can be implemented using tools like AWS Elastic Load Balancer (ELB), NGINX ...
+It can be implemented using tools such as AWS Elastic Load Balancer (ELB), NGINX, etc., with sticky sessions enabled to ensure traffic remains directed to the same API Gateway. This helps optimize the efficiency of the core functionalities provided by the API Gateway.
 
 ### 2. API Gateway (Middle Layer):
 The API Gateways handle the core functionalities of the system, such as:
