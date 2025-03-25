@@ -1,29 +1,13 @@
-### Input
+## Repository Structure
+
 ```
-10 3
-2023-10-27T00:13:05Z
-2023-10-27T00:27:05Z
-2023-10-27T00:45:05Z
-2023-10-27T01:00:05Z
-2023-10-27T01:15:05Z
-2023-10-27T01:20:05Z
-2023-10-27T01:50:05Z
-2023-10-27T01:52:05Z
-2023-10-27T01:54:05Z
-2023-10-27T02:13:05Z
+├── 1-code
+│   ├── README.md
+│   └── rate_limit.py
+├── 2-design
+│   ├── api-gateway-high-level-design.svg
+│   └── apigateway-highlevel-design.drawio
+└── README.md
 ```
 
-### Output
-```
-True
-True
-True
-False
-True
-False
-True
-True
-False
-False
-```
-
+## Explaination for design
