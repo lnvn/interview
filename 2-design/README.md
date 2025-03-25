@@ -1,4 +1,7 @@
 ## Explaination for design
+
+![API Gateway Architecture](./api-gateway-high-level-design.svg)
+
 ### 1. Load Balancer (Top Layer):
 The load balancer is the entry point for incoming requests. It distributes traffic evenly among the API Gateways to ensure high availability and efficient use of resources.
 
